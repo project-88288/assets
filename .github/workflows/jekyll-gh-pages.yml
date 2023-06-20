@@ -32,7 +32,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '16.x'
-      - name: Install Dependencies and build
+      - name: Install Dependencies
         run: 
           npm install
       - name: Build with node
