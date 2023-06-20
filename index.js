@@ -13,8 +13,7 @@ glob(
       // Append `on` to the end of `js` to create `json`.
       const fullPathJSON = `./${file}on`;
       const list = require(fullPath);
-      co
-
+      
       // Sort lists based on protocol name, or contract name.
       ["mainnet", "classic", "testnet", "localterra"].forEach((network) => {
         if (typeof list[network] === "undefined") {
