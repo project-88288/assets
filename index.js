@@ -1,5 +1,5 @@
 const glob = require("glob");
-const fs = require("fs").promises;
+const fs = require("fs-extra");
 
 // Find all JavaScript config files and convert them to JSON.
 glob(
