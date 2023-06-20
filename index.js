@@ -13,7 +13,7 @@ glob(
       // Append `on` to the end of `js` to create `json`.
       const fullPathJSON = `./${file}on`;
       const list = require(fullPath);
-      
+
       // Sort lists based on protocol name, or contract name.
       ["mainnet", "classic", "testnet", "localterra"].forEach((network) => {
         if (typeof list[network] === "undefined") {
@@ -41,6 +41,7 @@ glob(
       // Format the JSON with indentions before writing.
       const jsonList = JSON.stringify(list, null, 2);
       await fs.writeFile(fullPathJSON, jsonList);
+      console.log(fullPathJSON);
     });
   }
 );
