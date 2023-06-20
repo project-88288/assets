@@ -32,10 +32,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '16.x'
-      - name: Install Dependencies
+      - name: Install Dependencies and build
         run: 
           npm install
-          npm run build --if-present
+      - name: Build with node
+        run: 
+          npm run build 
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
