@@ -1,4 +1,4 @@
-{
+module.exports = {
     "localterra": {},
     "mainnet": {
         "terra1qyxrdl22fyflw4qpxl8xu5mg2zuhscs7y5l02jm54ypj33jlwt7qh73lrt": {
