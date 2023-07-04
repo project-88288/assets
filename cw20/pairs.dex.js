@@ -11721,6 +11721,15 @@ module.exports = {
         "terra1g955qy5zytkl7z5rv5v9zrh5n7lg8hk8qlw4vgjpqrtcpxdanwhqcqa7pt",
       ],
     },
+    //opza
+    terra1yjekfa0d0z8jdj5jc0mv0k8lu023yzymmgkerjvhh4twtq6nhmzqa9s2v7: {
+      dex: "astroport",
+      type: "xyk",
+      assets: [
+        "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
+        "terra1ry9f6alqyf9dpj04u9ymq5u4whjndu485agh6gusn89dmqse3ggsnzducj",
+      ],
+    },
   },
   testnet: {},
   classic: {},
