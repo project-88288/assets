@@ -5,7 +5,7 @@ const fs = require("fs-extra");
 glob(
   "**/*.js",
   {
-    ignore: ["index.js", "merge_pairs.js", "node_modules/**"],
+    ignore: ["index.js", "merge.js", "src/**", ".caches/**", "node_modules/**"],
   },
   (_, files) => {
     files.forEach(async (file) => {
