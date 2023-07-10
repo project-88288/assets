@@ -51,8 +51,8 @@ module.exports = {
       dex: "terraswap",
       type: "xyk",
       assets: [
-        "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
         "terra1ry9f6alqyf9dpj04u9ymq5u4whjndu485agh6gusn89dmqse3ggsnzducj",
+        "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
       ],
     },
     terra1gu75wek7kq8h4ee6eztmfu73nr3esl6al0qjawkhya3g57sz6jvsukpj3z: {
