@@ -42,6 +42,13 @@ module.exports = {
       type: "xyk",
       assets: ["terra1spkm49wd9dqkranhrks4cupecl3rtgeqqljq3qrvrrts2ev2gw6sy5vz3k", "uluna"],
     },
+
+    terra1gmdgdku0dvn034cwry64vmrtp387tle6rtdjrngr56e0us4vphkqytu9lj: {
+      dex: "terraswap",
+      type: "xyk",
+      assets: ["uluna", "terra1ry9f6alqyf9dpj04u9ymq5u4whjndu485agh6gusn89dmqse3ggsnzducj"],
+    },
+
     terra1gu75wek7kq8h4ee6eztmfu73nr3esl6al0qjawkhya3g57sz6jvsukpj3z: {
       dex: "terraswap",
       type: "xyk",
