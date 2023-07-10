@@ -27,7 +27,8 @@ async function mergeToFile(fileUrl_, filePath_) {
       .on("finish", () => {
         file.close();
 
-        console.log("File downloaded successfully.");
+        console.log(`File downloaded successfully from ${fileUrl_}.`);
+
         const srcassets = require(cachesPath);
         const desassets = require(filePath);
 
@@ -42,6 +43,7 @@ async function mergeToFile(fileUrl_, filePath_) {
             console.error("Error writing file:", err);
             return;
           }
+          console.log(`Successful merge to ${filePath}.`);
         });
       })
       .on("error", (error) => {
@@ -75,11 +77,12 @@ async function mergeFiles(srcfilePath, desfilePath) {
 
   const data = `module.exports = ${JSON.stringify(merge, null, 2)};\n`;
 
-  fs.writeFile(desfilePath, data, "utf8", (err) => {
+  fs.writeFile(desfilePath_, data, "utf8", (err) => {
     if (err) {
       console.error("Error writing file:", err);
       return;
     }
+    console.log(`Successful merge ${srcfilePath_} to ${desfilePath_}.`);
   });
 }
 
