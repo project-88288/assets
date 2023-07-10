@@ -1,4 +1,5 @@
 node_modules/
+.caches/
 
 # Don't include json files that get built on deploy.
 cw20/*.json

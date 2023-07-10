@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node index.js",
+    "merge": "node merge.js",
     "prepare": "husky install"
   },
   "repository": {
@@ -22,7 +23,8 @@
     "fs-extra": "^11.1.1",
     "glob": "^7.2.0",
     "husky": "^8.0.1",
-    "lint-staged": ">=10"
+    "lint-staged": ">=10",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "husky": "^7.0.0",
