@@ -180,6 +180,24 @@ module.exports = {
         "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
       ],
     },
+    //
+    terra1yjekfa0d0z8jdj5jc0mv0k8lu023yzymmgkerjvhh4twtq6nhmzqa9s2v7: {
+      dex: "terraswap",
+      type: "xyk",
+      assets: [
+        "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
+        "terra1ry9f6alqyf9dpj04u9ymq5u4whjndu485agh6gusn89dmqse3ggsnzducj",
+      ],
+    },
+    terra1q5xw5q8sqpaffuq867rjdl6ljaent9zlzv3t3hy90a24gttuts3sdjxduz: {
+      dex: "astroport",
+      type: "xyk",
+      assets: [
+        "terra1d4j9lsl453mkvtlg4ctw8y52rdkhafsaefug0hq0z06phczuvvvs7uq0vg",
+        "terra1ry9f6alqyf9dpj04u9ymq5u4whjndu485agh6gusn89dmqse3ggsnzducj",
+      ],
+    },
+    //
     terra12t3t0f0ga6hv6cw274mytcwhh9038x448ugthz9j0tkvdnlgnc5qdz2ael: {
       dex: "astroport",
       type: "xyk",
