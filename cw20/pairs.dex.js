@@ -180,9 +180,8 @@ module.exports = {
         "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
       ],
     },
-    //
     terra1yjekfa0d0z8jdj5jc0mv0k8lu023yzymmgkerjvhh4twtq6nhmzqa9s2v7: {
-      dex: "terraswap",
+      dex: "astroport",
       type: "xyk",
       assets: [
         "ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
@@ -197,7 +196,6 @@ module.exports = {
         "terra1ry9f6alqyf9dpj04u9ymq5u4whjndu485agh6gusn89dmqse3ggsnzducj",
       ],
     },
-    //
     terra12t3t0f0ga6hv6cw274mytcwhh9038x448ugthz9j0tkvdnlgnc5qdz2ael: {
       dex: "astroport",
       type: "xyk",
