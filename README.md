@@ -30,6 +30,7 @@ assets
 
 ./station/
 |
+|___/station/extension/1.21.2.zip # https://dev.opzlabs.com/assets/station/extension/1.21.2.zip
 |___/station/chains.json # https://dev.opzlabs.com/assets/station/chains.json
 |___/station/coins.json # https://dev.opzlabs.com/assets/station/coins.json
 |___/station/coingecko.json # https://dev.opzlabs.com/assets/station/coingecko.json
