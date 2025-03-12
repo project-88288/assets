@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node index.js",
     "merge": "node merge.js",
+    "2_lists": "node 2_lists.js",
     "prepare": "husky install"
   },
   "repository": {
