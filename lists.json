@@ -1,0 +1,23 @@
+[
+  "bridge",
+  "chains.json",
+  "contracts.json",
+  "cw20",
+  "cw721",
+  "extensions.json",
+  "font",
+  "ibc",
+  "icon",
+  "interchain-extensions.json",
+  "lists.json",
+  "msgs",
+  "package-lock.json",
+  "package.json",
+  "README.md",
+  "schemas",
+  "shuttle",
+  "station",
+  "validators.json",
+  "wormhole",
+  "lists.json"
+]
