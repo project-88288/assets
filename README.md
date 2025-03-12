@@ -19,19 +19,25 @@ assets
 └───ibc
     │   tokens.js # Tokens bridged to Terra through IBC.
 ```
-# station
-
+# url
 ```
-outputs 
+./
+|_./chains.json # https://dev.opzlabs.com/assets/chains.json
+|_./contracts.json # https://dev.opzlabs.com/assets/contracts.json
+|_./extensions.json # https://dev.opzlabs.com/assets/extensions.json
+|_./interchain-extensions.json # https://dev.opzlabs.com/assets/interchain-extensions.json
+|_./validators.json # https://dev.opzlabs.com/assets/station/validators.json
+
+./station/
 |
-|___chains.json #https://dev.opzlabs.com/assets/chains.json
-|___coins.json #https://dev.opzlabs.com/assets/coins.json
-|___coingecko.json #https://dev.opzlabs.com/assets/coingecko.json
-|___maintenance.json #https://dev.opzlabs.com/assets/maintenance.json
-|___proposals.json #https://dev.opzlabs.com/assets/proposals.json
-|___tfm.json #https://dev.opzlabs.com/assets/tfm.json
-|___version.json #https://dev.opzlabs.com/assets/version.json
-|___mobile/version.json #https://dev.opzlabs.com/assets/moblie/version.json
+|___/station/chains.json # https://dev.opzlabs.com/assets/station/chains.json
+|___/station/coins.json # https://dev.opzlabs.com/assets/station/coins.json
+|___/station/coingecko.json # https://dev.opzlabs.com/assets/station/coingecko.json
+|___/station/maintenance.json # https://dev.opzlabs.com/assets/station/maintenance.json
+|___/station/proposals.json # https://dev.opzlabs.com/assets/station/proposals.json
+|___/station/tfm.json # https://dev.opzlabs.com/assets/station/tfm.json
+|___/station/version.json # https://dev.opzlabs.com/assets/station/version.json
+|___/station/mobile/version.json # https://dev.opzlabs.com/assets/station/moblie/version.json
 
 ```
 #
