@@ -1,4 +1,4 @@
-# Terra Assets
+# Assets
 
 This repository contains contract addresses for many different use-cases.
 
@@ -19,6 +19,22 @@ assets
 └───ibc
     │   tokens.js # Tokens bridged to Terra through IBC.
 ```
+# station
+
+```
+outputs 
+|
+|___chains.json #https://dev.opzlabs.com/assets/chains.json
+|___coins.json #https://dev.opzlabs.com/assets/coins.json
+|___coingecko.json #https://dev.opzlabs.com/assets/coingecko.json
+|___maintenance.json #https://dev.opzlabs.com/assets/maintenance.json
+|___proposals.json #https://dev.opzlabs.com/assets/proposals.json
+|___tfm.json #https://dev.opzlabs.com/assets/tfm.json
+|___version.json #https://dev.opzlabs.com/assets/version.json
+|___mobile/version.json #https://dev.opzlabs.com/assets/moblie/version.json
+
+```
+#
 
 There are other lists that are used less often so I've left them out of this walkthrough.
 
