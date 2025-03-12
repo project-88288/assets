@@ -26,7 +26,7 @@ assets
 |_./contracts.json # https://dev.opzlabs.com/assets/contracts.json
 |_./extensions.json # https://dev.opzlabs.com/assets/extensions.json
 |_./interchain-extensions.json # https://dev.opzlabs.com/assets/interchain-extensions.json
-|_./validators.json # https://dev.opzlabs.com/assets/station/validators.json
+|_./validators.json # https://dev.opzlabs.com/assets/validators.json
 
 ./station/
 |
@@ -37,10 +37,9 @@ assets
 |___/station/proposals.json # https://dev.opzlabs.com/assets/station/proposals.json
 |___/station/tfm.json # https://dev.opzlabs.com/assets/station/tfm.json
 |___/station/version.json # https://dev.opzlabs.com/assets/station/version.json
-|___/station/mobile/version.json # https://dev.opzlabs.com/assets/station/moblie/version.json
+|___/station/mobile/version.json # https://dev.opzlabs.com/assets/station/mobile/version.json
 
 ```
-#
 
 There are other lists that are used less often so I've left them out of this walkthrough.
 
